@@ -1,0 +1,406 @@
+@media screen and (max-width : 991px){
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .test{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .nav-toggle{
+        display: block;
+        color: white;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+    
+
+    .h-nav{
+        height: 45px !important;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .navbar{
+        max-width: 100%;
+        background-color: rgb(47, 46, 46);
+        display: flex;
+        justify-content: end;
+        padding-right: 21px;
+        height: 380px;
+    }
+
+    .short{
+        height : 1px;
+        background-color : black;
+        border-radius : 1000%;
+        margin : auto 280px;
+    }
+
+    .name-list{
+        padding-left: 6px;
+        font-size: 20px;
+    }
+
+    .info{
+        gap: 20px;
+        padding-top: 20px;
+        padding-inline: 18px
+    }
+
+    .same-css{
+        border: 2px solid white;
+        width: calc(50% - 18px);
+    }
+
+    .founder{
+        width: 350px;
+    }
+
+    .foot{
+        padding-block: 13px
+    }
+
+    .management img {
+        width: 88%;
+        height: 415px;
+    }
+
+    .vid-1{
+        grid-template-columns: 300px 300px;
+        row-gap: 4%;
+        column-gap: 10%;
+    }
+
+    .vid-pad{
+        width: 310px;
+    }
+
+    #copyright{
+        margin-top: 164px
+    }
+    
+}
+
+
+
+
+@media screen and (max-width : 767px) {
+
+    .jpg{
+        width: 96px;
+    }
+
+    .test{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .heading{
+        font-size: 25px;
+        margin-left: 8px
+    }
+
+    .top-nam{
+        font-size: 30px;
+        padding-block: 0p
+    }
+
+    .school-name{
+        margin-top: -4px;
+    }
+
+    .school-name-list{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info{
+        gap: 20px;
+        padding-top: 20px;
+        padding-inline: 18px;
+    }
+
+    .FirstImg{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .founder{
+        width: 300px;
+    }
+
+    .name-list{
+        padding-left: 6px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .same-css{
+        margin-top: -5px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+
+    .celibrating img {
+        width: 225px;
+    }
+
+    .celibrating p{
+        font-size: 28px;
+    }
+
+    .foot{
+        justify-content: flex-start;
+        padding-left: 30px;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .management img {
+        width: 88%;
+        height: 335px;
+    }
+
+    .text-footer{
+        padding-bottom: 0;
+    }
+
+    .vid-1{
+        grid-template-columns: 238px 238px;
+        row-gap: 4%;
+        column-gap: 2%;
+    }
+
+    .vid-pad{
+        width: 201px;
+    }
+
+    .result img{
+        width: 486px;
+    }
+
+}
+
+
+@media screen and (max-width : 479px) {
+
+    .heading{
+        font-size: 20px;
+        margin-top: 29px; 
+        margin-left: 11px;
+    }
+
+    .jpg {
+        width: 96px;
+        margin-left: 40px;
+    }
+
+    .test{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .school-name{
+        margin-top: 0px;
+    }
+
+    .name-list {
+        padding-left: 6px;
+        font-size: 16px;
+        padding-block: 17px;
+    }
+
+    .school-name-list{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+ 
+    .same-css{
+        width: 50%;
+        margin: 12px;
+    }
+
+    .info{
+        gap: 0px;
+        padding-block: 20px;
+        padding-inline: 18px;
+        justify-content: center;
+    }
+
+    .foot{
+        justify-content: flex-start;
+        padding-left: 30px;
+        gap: 2px;
+    }
+
+    #lac{
+        padding-left: 19px;
+    }
+
+    #loc{
+        margin-top: -5px;
+    }
+
+    .first-div{
+        padding: 15px;
+    }
+
+    #one{
+        flex-wrap: wrap;
+    }
+
+    .map{
+        width: 0%;
+    }
+
+    .celibrating img{
+        width: 180px;
+    }
+    
+    .celibrating p{
+        font-size: 24px;
+    }
+
+    .management img {
+        width: 88%;
+        height: 225px;
+    }
+
+    .vid-1{
+        grid-template-columns: 297px;
+        row-gap: 2%;
+        column-gap: 10%;
+    }
+
+    .vid-pad{
+        width: 286px;
+    }
+
+    #copyright{
+        margin-top: 289px
+    }
+
+    .result img{
+        width: 338px;
+        margin: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1296px) and (min-width: 1000px) {
+
+    .short{
+        height : 1px;
+        background-color : black;
+        border-radius : 1000%;
+        margin : auto 358px;
+    }
+
+    .nav-list li{
+        font-size: 20px;
+         padding: 26px 46px;
+    }
+    
+    #search{
+        font-size: 13px;
+    }
+
+    .vid-1{
+        grid-template-columns: 300px 300px 300px;
+        row-gap: 41px;
+        column-gap: 46px;
+    }
+
+    .vid-pad{
+        width: 302px;
+    }
+
+    .result img{
+        width: 435px;
+    }
+}
+
+@media screen and (max-width: 770px) and (min-width: 600px) {
+
+    .short{
+        height : 1px;
+        background-color : black;
+        border-radius : 1000%;
+        margin : auto 165px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) and (min-width: 515px) {
+
+    .short{
+        height : 1px;
+        background-color : black;
+        border-radius : 1000%;
+        margin : auto 130px;
+    }
+    
+}
+
+@media screen and (max-width: 515px) and (min-width: 415px) {
+
+    .short{
+        height : 1px;
+        background-color : black;
+        border-radius : 1000%;
+        margin : auto 100px;
+    }
+    
+}
+
+@media screen and (max-width: 415px) and (min-width: 352px) {
+
+    .short{
+        height : 1px;
+        background-color : black;
+        border-radius : 1000%;
+        margin : auto 96px;
+    }
+    
+}
